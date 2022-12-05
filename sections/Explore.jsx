@@ -25,7 +25,6 @@ const Explore = () => {
           title={
             <>
               Take a look at my latest work <br className="md:block hidden" />{" "}
-              to explore
             </>
           }
           textStyles="text-center"

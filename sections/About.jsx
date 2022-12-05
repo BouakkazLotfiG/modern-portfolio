@@ -1,5 +1,6 @@
 "use client";
 
+import Spotify from "react-spotify-embed";
 import { motion } from "framer-motion";
 import { TypingText } from "../components";
 import styles from "../styles";
@@ -15,7 +16,7 @@ const About = () => (
       viewport={{ once: false, amount: 0.25 }}
       className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col `}
     >
-      <TypingText title="| About Me" textStyles="text-center" />
+      <TypingText title="| About Me" textStyles="text-center " />
 
       <motion.p
         variants={fadeIn("up", "tween", 0.2, 1)}
@@ -34,8 +35,26 @@ const About = () => (
         variants={fadeIn("up", "tween", 0.3, 1)}
         src="/arrow-down.svg"
         alt="arrow"
-        className="w-[18px] h-[18px] object-contain mt-[28px]"
+        className="w-[30px] h-[30px] object-contain mt-[28px]"
       />
+      <motion.div className="mt-20" variants={fadeIn("up", "tween", 0.2, 1)}>
+        <motion.p
+          variants={fadeIn("up", "tween", 0.2, 1)}
+          className=" mt-[8px] mb-[8px] font-bold sm:text-[25px] text-[20px] text-center text-secondary-white"
+        >
+          Latest Release
+        </motion.p>
+        <iframe
+          src="https://open.spotify.com/embed/track/6LebOVdh9x0tsWnODTfDRV?utm_source=generator"
+          width="600"
+          height="200"
+          frameBorder="0"
+          allowfullscreen=""
+          allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+          loading="lazy"
+          title="skyles"
+        />
+      </motion.div>
     </motion.div>
   </section>
 );

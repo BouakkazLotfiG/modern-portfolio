@@ -108,7 +108,44 @@
 
 
 .hero {
-  
   height: 90vh;
- 
+}
+
+  
+.scrolldown {
+	border: 3px solid #FFFFFF;
+	border-radius: 30px;
+	height: 60px;
+	margin: 0 auto ;
+	display: flex;
+  align-items: center;
+  justify-content: center;
+	width: 30px;
+}
+
+.scrolldown-p1,
+.scrolldown-p2 {
+	animation-duration: 1.5s;
+	animation-name: scrolldown;
+	animation-iteration-count: infinite;
+	fill: #FFFFFF;
+}
+  
+.scrolldown-p2 {
+	animation-delay: 1s;
+}
+
+@keyframes scrolldown {
+	0% {
+		opacity: 0;
+		transform: translate(0, -16px);
+	}
+	50% {
+		opacity: 1;
+		transform: translate(0, 0);
+	}
+	100% {
+		opacity: 0;
+		transform: translate(0, 16px);
+	}
 }
