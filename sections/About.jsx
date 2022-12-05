@@ -23,7 +23,12 @@ const About = () => (
       >
         Hello i'm
         <span className="font-extrabold text-white"> Lotfi Bouakkaz </span>I am
-        a 24yo junior frontend web developer
+        a 24yo junior frontend web developer a 24yo junior frontend web
+        developer a 24yo junior frontend web developer a 24yo junior frontend
+        web developer a 24yo junior frontend web developer a 24yo junior
+        frontend web developer a 24yo junior frontend web developer a 24yo
+        junior frontend web developer frontend web developer a 24yo junior
+        frontend web developer a 24yo junior frontend web developer
       </motion.p>
       <motion.img
         variants={fadeIn("up", "tween", 0.3, 1)}
