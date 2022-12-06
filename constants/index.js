@@ -1,7 +1,7 @@
 export const exploreWorlds = [
   {
     id: "world-1",
-    imgUrl: "/planet-01.png",
+    imgUrl: "/spotify.png",
     title: "Spotify",
   },
   {
@@ -27,21 +27,62 @@ export const exploreWorlds = [
 ];
 
 export const front = [
-  "Find a world that suits you and you want to enter",
-  "Enter the world by reading basmalah to be safe",
-  "No need to beat around the bush, just stay on the gas and have fun",
-];
-
-export const newFeatures = [
   {
-    imgUrl: "/vrpano.svg",
-    title: "A new world",
+    imgUrl: "/react.svg",
+    title: "React",
     subtitle:
       "we have the latest update with new world for you to try never mind",
   },
   {
-    imgUrl: "/headset.svg",
-    title: "More realistic",
+    imgUrl: "/typescript.svg",
+    title: "Typescript",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+  {
+    imgUrl: "/redux.svg",
+    title: "Redux",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+  {
+    imgUrl: "/sass.svg",
+    title: "Scss",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+];
+export const other = [
+  {
+    imgUrl: "/git.svg",
+    title: "Git",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+  {
+    imgUrl: "/python.svg",
+    title: "Python",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+  {
+    imgUrl: "/graphql.svg",
+    title: "Graph Ql",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+];
+
+export const newFeatures = [
+  {
+    imgUrl: "/express.svg",
+    title: "Express",
+    subtitle:
+      "we have the latest update with new world for you to try never mind",
+  },
+  {
+    imgUrl: "/mongodb.svg",
+    title: "MongoDB",
     subtitle:
       "In the latest update, your eyes are narrow, making the world more realistic than ever",
   },

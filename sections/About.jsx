@@ -46,7 +46,7 @@ const About = () => (
         </motion.p>
         <iframe
           src="https://open.spotify.com/embed/track/6LebOVdh9x0tsWnODTfDRV?utm_source=generator"
-          width="600"
+          width="300"
           height="200"
           frameBorder="0"
           allowfullscreen=""

@@ -3,11 +3,11 @@
 import { motion } from "framer-motion";
 
 import styles from "../styles";
-import { newFeatures } from "../constants";
+import { other } from "../constants";
 import { NewFeatures, TitleText, TypingText } from "../components";
 import { planetVariants, staggerContainer, fadeIn } from "../utils/motion";
 
-const WhatsNew = () => (
+const Other = () => (
   <section className={`${styles.paddings} relative z-10`}>
     <motion.div
       variants={staggerContainer}
@@ -21,9 +21,9 @@ const WhatsNew = () => (
         className="flex-[0.95] flex justify-center flex-col"
       >
         <TypingText title="| Whats new?" />
-        <TitleText title={<>What's new about Metaversus?</>} />
+        <TitleText title={<>My other commonly used tools</>} />
         <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
-          {newFeatures.map((feature) => (
+          {other.map((feature) => (
             <NewFeatures key={feature.title} {...feature} />
           ))}
         </div>
@@ -34,7 +34,7 @@ const WhatsNew = () => (
         className={`flex-1 ${styles.flexCenter}`}
       >
         <img
-          src="/whats-new.png"
+          src="/other.svg"
           alt="get-started"
           className="w-[90%] h-[90%] object-contain"
         />
@@ -43,4 +43,4 @@ const WhatsNew = () => (
   </section>
 );
 
-export default WhatsNew;
+export default Other;
