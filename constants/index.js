@@ -1,129 +1,122 @@
-export const exploreWorlds = [
+export const projects = [
   {
-    id: "world-1",
-    imgUrl: "/spotify.png",
-    title: "Spotify",
+    id: 'world-1',
+    imgUrl: '/spotify.png',
+    title: 'Spotify',
   },
   {
-    id: "world-2",
-    imgUrl: "/planet-02.png",
-    title: "Stock Manager",
+    id: 'world-2',
+    imgUrl: '/planet-02.png',
+    title: 'Stock Manager',
   },
   {
-    id: "world-3",
-    imgUrl: "/planet-03.png",
-    title: "Netflix",
+    id: 'world-3',
+    imgUrl: '/planet-03.png',
+    title: 'Netflix',
   },
   {
-    id: "world-4",
-    imgUrl: "/planet-04.png",
-    title: "ToDo",
+    id: 'world-4',
+    imgUrl: '/planet-04.png',
+    title: 'ToDo',
   },
   {
-    id: "world-5",
-    imgUrl: "/planet-05.png",
-    title: "Hawkins Labs",
+    id: 'world-5',
+    imgUrl: '/planet-05.png',
+    title: 'Hawkins Labs',
   },
 ];
 
 export const front = [
   {
-    imgUrl: "/react.svg",
-    title: "React",
+    imgUrl: '/react.svg',
+    title: 'React',
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      'I am comfortable using react, react router DOM, Hooks, API manipulation...',
   },
   {
-    imgUrl: "/typescript.svg",
-    title: "Typescript",
+    imgUrl: '/typescript.svg',
+    title: 'Typescript',
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      'I am familiar with data structure, types and the importance of type safety',
   },
   {
-    imgUrl: "/redux.svg",
-    title: "Redux",
+    imgUrl: '/redux.svg',
+    title: 'Redux',
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      'I mostly use Redux for state managment, also familiar with react context API',
   },
   {
-    imgUrl: "/sass.svg",
-    title: "Scss",
+    imgUrl: '/sass.svg',
+    title: 'Sass',
     subtitle:
-      "we have the latest update with new world for you to try never mind",
+      'For styling, I use sass for its nesting, mixin and added logic in styling',
   },
 ];
 export const other = [
   {
-    imgUrl: "/git.svg",
-    title: "Git",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
+    imgUrl: '/git.svg',
+    title: 'Git',
   },
   {
-    imgUrl: "/python.svg",
-    title: "Python",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
+    imgUrl: '/python.svg',
+    title: 'Python',
   },
   {
-    imgUrl: "/graphql.svg",
-    title: "Graph Ql",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
-  },
-];
-
-export const newFeatures = [
-  {
-    imgUrl: "/express.svg",
-    title: "Express",
-    subtitle:
-      "we have the latest update with new world for you to try never mind",
+    imgUrl: '/tailwind.svg',
+    title: 'Tailwind',
   },
   {
-    imgUrl: "/mongodb.svg",
-    title: "MongoDB",
-    subtitle:
-      "In the latest update, your eyes are narrow, making the world more realistic than ever",
+    imgUrl: '/materialUI.svg',
+    title: 'Material UI',
+  },
+  {
+    imgUrl: '/graphql.svg',
+    title: 'Graph Ql',
+  },
+  {
+    imgUrl: '/bootstrap.svg',
+    title: 'Bootstrap',
   },
 ];
 
-export const insights = [
+export const back = [
   {
-    imgUrl: "/planet-06.png",
-    title: "The launch of the Metaverse makes Elon musk ketar-ketir",
-    subtitle:
-      "Magna etiam tempor orci eu lobortis elementum nibh tellus molestie. Diam maecenas sed enim ut sem viverra alique.",
+    imgUrl: '/express.svg',
+    title: 'Express',
+    subtitle: 'For creating RESTful APIs, i mainly use the framework Expressjs',
   },
   {
-    imgUrl: "/planet-07.png",
-    title: "7 tips to easily master the madness of the Metaverse",
+    imgUrl: '/mongodb.svg',
+    title: 'MongoDB',
     subtitle:
-      "Vitae congue eu consequat ac felis donec. Et magnis dis parturient montes nascetur ridiculus mus. Convallis tellus id interdum",
-  },
-  {
-    imgUrl: "/planet-08.png",
-    title: "With one platform you can explore the whole world virtually",
-    subtitle:
-      "Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem",
+      'For managing databases, i mainly use the NoSql mongodb, but also familiar with SQL databases',
   },
 ];
 
 export const socials = [
   {
-    name: "twitter",
-    url: "/twitter.svg",
+    name: 'github',
+    icon: '/github.png',
+    url: 'https://github.com/BouakkazLotfiG',
   },
   {
-    name: "linkedin",
-    url: "/linkedin.svg",
+    name: 'linkedin',
+    icon: '/linkedin.svg',
+    url: 'https://www.linkedin.com/in/ghanilotfibouakkaz/',
   },
   {
-    name: "instagram",
-    url: "/instagram.svg",
+    name: 'instagram',
+    icon: '/instagram.svg',
+    url: 'https://www.instagram.com/lotfi__bkz/',
   },
   {
-    name: "facebook",
-    url: "/facebook.svg",
+    name: 'spotify',
+    icon: '/spotify.svg',
+    url: 'https://www.facebook.com/profile.php?id=100056701160951',
+  },
+  {
+    name: 'facebook',
+    icon: '/facebook.svg',
+    url: 'https://www.facebook.com/profile.php?id=100056701160951',
   },
 ];

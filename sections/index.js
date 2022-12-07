@@ -1,10 +1,8 @@
-import Hero from "./Hero";
-import About from "./About";
-import Explore from "./Explore";
-import Frontend from "./Frontend";
-import Backend from "./Backend";
-import Other from "./Other";
-import Insights from "./Insights";
-import Feedback from "./Feedback";
+import Hero from './Hero';
+import About from './About';
+import Projects from './Projects';
+import Frontend from './Frontend';
+import Backend from './Backend';
+import Other from './Other';
 
-export { Hero, About, Explore, Frontend, Backend, Other, Insights, Feedback };
+export { Hero, About, Projects, Frontend, Backend, Other };
