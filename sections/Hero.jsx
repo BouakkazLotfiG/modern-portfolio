@@ -46,8 +46,13 @@ const Hero = () => (
           variants={textVariant(1.2)}
         >
           <div className='flex gap-4'>
-            {socials.map((social) => (
-              <a href={social.url} target='_blank' rel='noopener noreferrer'>
+            {socials.map((social, index) => (
+              <a
+                key={index}
+                href={social.url}
+                target='_blank'
+                rel='noopener noreferrer'
+              >
                 <img
                   key={social.name}
                   src={social.icon}

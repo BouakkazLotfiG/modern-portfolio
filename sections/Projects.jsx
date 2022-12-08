@@ -9,7 +9,7 @@ import { staggerContainer } from '../utils/motion';
 import { ExploreCard, TitleText, TypingText } from '../components';
 
 const Projects = () => {
-  const [active, setActive] = useState('world-2');
+  const [active, setActive] = useState('spotify');
 
   return (
     <section className={`${styles.paddings}`} id='explore'>
@@ -24,7 +24,7 @@ const Projects = () => {
         <TitleText
           title={
             <>
-              Take a look at my latest work <br className='md:block hidden' />{' '}
+              Take a look at my latest work <br className='md:block hidden' />
             </>
           }
           textStyles='text-center'
