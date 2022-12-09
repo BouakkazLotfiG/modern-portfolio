@@ -25,7 +25,7 @@ const Navbar = () => {
             BOUAKKAZ
           </h2>
           <ul className='app__navbar-links text-secondary-white'>
-            {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
               <li key={`link-${item}`}>
                 <a href={`#${item}`}>{item}</a>
               </li>
@@ -46,8 +46,7 @@ const Navbar = () => {
             <img
               src='/menu.svg'
               alt='menu2'
-              className='close'
-              className='icon'
+              className='close icon'
               onClick={() => {
                 setToggle(true);
                 console.log(toggle);
@@ -64,7 +63,7 @@ const Navbar = () => {
           className='menu backdrop-blur-xl '
         >
           <ul>
-            {['Home', 'About', 'Portfolio', 'Skills', 'Contact'].map((item) => (
+            {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
               <li key={item}>
                 <a
                   className='text-secondary-white hover:text-white'

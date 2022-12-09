@@ -12,7 +12,7 @@ const Projects = () => {
   const [active, setActive] = useState('spotify');
 
   return (
-    <section className={`${styles.paddings}`} id='explore'>
+    <section id='Projects' className={`${styles.paddings}`}>
       <motion.div
         variants={staggerContainer}
         initial='hidden'

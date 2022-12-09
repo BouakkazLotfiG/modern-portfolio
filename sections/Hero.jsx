@@ -6,6 +6,7 @@ import { socials } from '../constants';
 
 const Hero = () => (
   <section
+    id='Home'
     className={`${styles.yPaddings} sm:pl-16 pl-6 sm:pr-16 pr-6 sm:flex-row   hero`}
   >
     <motion.div
