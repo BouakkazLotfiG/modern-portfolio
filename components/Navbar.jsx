@@ -21,9 +21,10 @@ const Navbar = () => {
         <div
           className={`${styles.innerWidth} mx-auto flex justify-between gap-8`}
         >
-          <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
+          <img src='/logo.png' className='  md:h-[50px] h-[30px] ' alt='' />
+          {/* <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
             BOUAKKAZ
-          </h2>
+          </h2> */}
           <ul className='app__navbar-links text-secondary-white'>
             {['Home', 'About', 'Projects', 'Skills', 'Contact'].map((item) => (
               <li key={`link-${item}`}>
@@ -112,9 +113,9 @@ const Navbar = () => {
                 </a>
               ))}
             </div>
-            <p className='font-normal text-[14px] text-white opacity-50'>
-              Made by Lotfi.
-            </p>
+            <div className='flex justify-around'>
+              <img src='/logo.png' className='  md:h-[50px] h-[30px] ' alt='' />
+            </div>
           </div>
         </motion.div>
       )}

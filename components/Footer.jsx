@@ -40,7 +40,6 @@ const Footer = () => (
         <div className='mb-[50px] h-[2px] bg-white opacity-10' />
 
         <div className='flex items-center justify-between flex-wrap gap-4'>
-          <h4 className='font-extrabold text-[24px] text-white'>BOUAKKAZ</h4>
           <p className='font-normal text-[14px] text-white opacity-50'>
             Made by Lotfi.
           </p>
@@ -62,6 +61,7 @@ const Footer = () => (
               </a>
             ))}
           </div>
+          <img src='/logo.png' className='  md:h-[50px] h-[30px]' alt='' />
         </div>
       </div>
     </div>
