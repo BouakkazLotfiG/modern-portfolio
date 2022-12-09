@@ -127,7 +127,7 @@ export const socials = [
   {
     name: 'spotify',
     icon: '/spotify.svg',
-    url: 'https://www.facebook.com/profile.php?id=100056701160951',
+    url: 'https://open.spotify.com/artist/6bv7KnC1UWk86sXFNS1MpB',
   },
   {
     name: 'facebook',
