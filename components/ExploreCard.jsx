@@ -29,8 +29,8 @@ const ExploreCard = ({
       className='absolute w-full h-full object-cover rounded-[24px] '
     />
     {active !== id ? (
-      <div className='absolute  lg:h-[720px] bottom-0 p-8 flex justify-end w-full flex-col rounded-b-[24px] md:bg-gradient-to-t from-black'>
-        <h3 className='font-semibold sm:text-[26px] text-[18px] text-white z-0 lg:bottom-20 lg:rotate-[-90deg] lg:origin-[0,0] pl-8'>
+      <div className='absolute  lg:h-[720px] bottom-0 md:p-10  p-4 flex justify-end w-full flex-col rounded-b-[24px] md:bg-gradient-to-t from-black'>
+        <h3 className='font-semibold sm:text-[26px] text-[18px] text-white z-0 lg:rotate-[-90deg] lg:origin-[0,0] pl-4'>
           {title}
         </h3>
       </div>

@@ -25,7 +25,7 @@ const Other = () => (
         <div className='mt-[48px] flex flex-wrap justify-between gap-[24px]'>
           {other.map((feature) => (
             <StartSteps
-              key={feature}
+              key={feature.title}
               icon={feature.imgUrl}
               text={feature.title}
             />

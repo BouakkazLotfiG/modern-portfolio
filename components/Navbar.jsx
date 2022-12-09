@@ -24,11 +24,19 @@ const Navbar = () => {
           <h2 className='font-extrabold text-[24px] leading-[30px] text-white'>
             BOUAKKAZ
           </h2>
+          <ul className='app__navbar-links text-secondary-white'>
+            {['home', 'about', 'work', 'skills', 'contact'].map((item) => (
+              <li key={`link-${item}`}>
+                <a href={`#${item}`}>{item}</a>
+              </li>
+            ))}
+          </ul>
 
           {toggle ? (
             <img
-              src='/arrow.svg'
-              alt='menu2'
+              src='/close.svg'
+              alt='close'
+              className='icon'
               onClick={() => {
                 setToggle(false);
                 console.log(toggle);
@@ -39,6 +47,7 @@ const Navbar = () => {
               src='/menu.svg'
               alt='menu2'
               className='close'
+              className='icon'
               onClick={() => {
                 setToggle(true);
                 console.log(toggle);
@@ -50,14 +59,18 @@ const Navbar = () => {
 
       {toggle && (
         <motion.div
-          whileInView={{ x: [300, 0] }}
+          whileInView={{ x: [400, 0] }}
           transition={{ duration: 0.85, ease: 'easeOut' }}
           className='menu backdrop-blur-xl '
         >
           <ul>
             {['Home', 'About', 'Portfolio', 'Skills', 'Contact'].map((item) => (
-              <li key={item} className='text-secondary-white'>
-                <a href={`#${item}`} onClick={() => setToggle(false)}>
+              <li key={item}>
+                <a
+                  className='text-secondary-white hover:text-white'
+                  href={`#${item}`}
+                  onClick={() => setToggle(false)}
+                >
                   {item}
                 </a>
               </li>
@@ -86,7 +99,7 @@ const Navbar = () => {
             <div className='socials'>
               {socials.map((social) => (
                 <a
-                  key={social}
+                  key={social.name}
                   href={social.url}
                   target='_blank'
                   rel='noopener noreferrer'
