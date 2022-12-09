@@ -47,7 +47,7 @@ const About = () => (
           Latest Release
         </motion.p>
         <iframe
-          className='rounded-lg w-[250px]'
+          className='rounded-lg w-[250px] md:w-[700px]'
           src='https://open.spotify.com/embed/artist/6bv7KnC1UWk86sXFNS1MpB?utm_source=generator'
           width='50%'
           height='380'
