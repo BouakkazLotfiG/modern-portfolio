@@ -23,13 +23,15 @@ const About = () => (
         className='mt-[8px] font-normal sm:text-[32px] text-[20px] text-center text-secondary-white'
       >
         Hello i'm
-        <span className='font-extrabold text-white'> Lotfi Bouakkaz </span>I am
-        a 24yo junior frontend web developer a 24yo junior frontend web
-        developer a 24yo junior frontend web developer a 24yo junior frontend
-        web developer a 24yo junior fntend web developer a 24yo junior frontend
-        web developer a 24yo junior frontend web developer a 24yo junior
-        frontend web developer frontend web developer a 24yo junior frontend web
-        developer a 24yo junior frontend web developer
+        <span className='font-extrabold text-white'> Lotfi Bouakkaz </span>
+        ,I’m 24 years old, I graduated from University (USTHB) with a bachelor's
+        in Computer Science and a master's degree in Visual Computing. I chose
+        Web development because I’ve always been interested in bringing
+        beautiful UI designs to life, in a well coded and responsive way.
+        <br />
+        I'm also an experienced music producer and sound designer under the name
+        <span className='font-extrabold text-white'> Skyles </span>, it's one of
+        my favorite hobbies, you can listen to my latest release down below.
       </motion.p>
       <motion.img
         variants={fadeIn('up', 'tween', 0.3, 1)}
@@ -37,7 +39,7 @@ const About = () => (
         alt='arrow'
         className='w-[30px] h-[30px] object-contain mt-[28px]'
       />
-      <motion.div className='mt-20' variants={fadeIn('up', 'tween', 0.2, 1)}>
+      <motion.div className='mt-8' variants={fadeIn('up', 'tween', 0.2, 1)}>
         <motion.p
           variants={fadeIn('up', 'tween', 0.2, 1)}
           className=' mt-[8px] mb-[8px] font-bold sm:text-[25px] text-[20px] text-center text-secondary-white'
@@ -45,15 +47,15 @@ const About = () => (
           Latest Release
         </motion.p>
         <iframe
-          src='https://open.spotify.com/embed/track/6LebOVdh9x0tsWnODTfDRV?utm_source=generator'
-          width='300'
-          height='200'
+          className='rounded-lg w-[250px]'
+          src='https://open.spotify.com/embed/artist/6bv7KnC1UWk86sXFNS1MpB?utm_source=generator'
+          width='50%'
+          height='380'
           frameBorder='0'
-          allowFullScreen=''
+          allowfullscreen=''
           allow='autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture'
           loading='lazy'
-          title='skyles'
-        />
+        ></iframe>
       </motion.div>
     </motion.div>
   </section>
